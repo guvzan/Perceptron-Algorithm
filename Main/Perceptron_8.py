@@ -22,7 +22,7 @@ def ExtendPoints(array):
 
 
 def MultiplyRez(point, weight):
-    print("Here", point, weight)
+    #print("Here", point, weight)
     sum=0
     for i in range(len(point)):
         sum+=point[i]*weight[i]
